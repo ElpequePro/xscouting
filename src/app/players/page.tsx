@@ -1,4 +1,4 @@
-import { createClient } from '@/utils/supabase/component';
+import { createClient } from '@/utils/supabase/server';
 
 export default async function Players() {
     const supabase = await createClient();
