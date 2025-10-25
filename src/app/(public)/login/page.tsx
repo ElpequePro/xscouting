@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { FaGithub, FaGoogle } from "react-icons/fa"
 
 export const dynamic = 'force-dynamic';
+export const runtime = 'edge';
 
 export default function LoginPage() {
     const supabase = createClient();
