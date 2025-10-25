@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FaGithub, FaGoogle } from "react-icons/fa"
 
+export const dynamic = 'force-dynamic';
+
 export default function LoginPage() {
     const supabase = createClient();
     const router = useRouter();
