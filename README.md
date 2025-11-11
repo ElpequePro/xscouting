@@ -99,6 +99,38 @@ Contributions are welcome! If you want to contribute:
 4. Push to the branch (`git push origin feature/new-feature`)
 5. Open a Pull Request
 
+## 🗺️ Roadmap and Future Enhancements
+
+XScouting aims to become the ultimate football scouting platform. Here's what's planned to unlock its full potential:
+
+### 🚀 Short-Term Goals (Next 6-12 Months)
+- **Real-Time Data Integration**: Connect to live football APIs (e.g., Football-Data.org, API-Football) for up-to-date player stats, match results, and transfer news.
+- **AI-Powered Insights**: Implement basic AI algorithms for player potential predictions, tactic suggestions, and match outcome simulations.
+- **Mobile App**: Develop a companion PWA or native app for on-the-go scouting.
+- **Advanced Analytics**: Add heatmaps, player tracking visualizations, and predictive modeling for performance trends.
+
+### 🌟 Long-Term Vision (1-2 Years)
+- **Social Scouting Community**: Build forums, user-generated content, and collaborative tactic sharing with voting and comments.
+- **VR/AR Tactics Viewer**: Integrate virtual reality for immersive 3D tactic visualization and training simulations.
+- **Global Expansion**: Multi-language support, regional leagues, and partnerships with football federations.
+- **Monetization and Premium Features**: Subscription tiers for advanced tools, exclusive data, and custom branding.
+- **API Ecosystem**: Release a public API for third-party integrations, allowing developers to build custom scouting tools.
+
+### 🤝 How to Contribute to the Vision
+We welcome contributions that align with our roadmap! Check the [TODO.md](TODO.md) for detailed tasks, or propose new ideas via GitHub Issues. Let's build the future of football scouting together.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you want to contribute:
+
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
+
+*This project was developed with the assistance of AI tools.*
+
 ## 📄 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
