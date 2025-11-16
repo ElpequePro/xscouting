@@ -24,6 +24,12 @@
 - [ ] **Performance Optimization**: Optimize page load times and implement basic caching.
 - [ ] **Testing and QA**: Perform basic user testing and cross-browser checks.
 
+## 🕹️ Simulation & Gamification Features (NUEVA SECCIÓN)
+- [ ] **Tactical Tower Defense Game**: Implement a simple Tower Defense game where the "towers" are players placed in a formation (using the Tactics Creator) and "bloons/creeps" are rival attackers.
+    - **Mechanics**: Players' stats (Tackling, Interception, Strength) could determine the "damage" or defense capability of the tower.
+    - **Goal**: Defend the goalpost/scoreline against increasing waves of attackers.
+    - **Integration**: Allow users to use their saved custom teams/tactics in the game.
+
 ## Technical Tasks
 - [ ] Set up project structure and integrate with Supabase for data management.
 - [ ] Implement TypeScript types for players, clubs, tactics, and users.
@@ -32,9 +38,22 @@
 - [ ] Implement hooks for data fetching (e.g., usePlayerSearch, useTacticsBuilder).
 - [ ] Add error handling and loading states throughout the page.
 - [ ] Ensure accessibility (WCAG compliance) and basic responsiveness.
+- [ ] **Create web domain**: Register a domain like xscouting.[net|io|app|ai] for the website.
+- [ ] **Create email domain**: Set up email addresses with the domain xscouting.[net|io|app|ai].
+- [ ] **Configure DNS and hosting**: Point the domain to the hosting provider (e.g., Vercel) and set up SSL certificates.
+
+## Roadmap Enhancements
+- [ ] **Real-Time Data Integration**: Connect to live football APIs (e.g., Football-Data.org, API-Football) for up-to-date player stats, match results, and transfer news.
+- [ ] **AI-Powered Insights**: Implement basic AI algorithms for player potential predictions, tactic suggestions, and match outcome simulations.
+- [ ] **Mobile App Development**: Develop a companion PWA or native app for on-the-go scouting.
+- [ ] **Advanced Analytics**: Add heatmaps, player tracking visualizations, and predictive modeling for performance trends.
+- [ ] **Social Scouting Community**: Build forums, user-generated content, and collaborative tactic sharing with voting and comments.
+- [ ] **VR/AR Tactics Viewer**: Integrate virtual reality for immersive 3D tactic visualization and training simulations.
+- [ ] **Global Expansion**: Multi-language support, regional leagues, and partnerships with football federations.
+- [ ] **Monetization and Premium Features**: Subscription tiers for advanced tools, exclusive data, and custom branding.
+- [ ] **API Ecosystem**: Release a public API for third-party integrations, allowing developers to build custom scouting tools.
 
 ## Future Ideas
-- [ ] **Tower Defense Game**: Implement a tower defense game inspired by Bloons TD, with towers, enemies, waves, and upgrades.
 - [ ] AI-Powered Scouting: Use simple algorithms to suggest player potentials or tactics.
 - [ ] Social Features: Add comments or sharing buttons for tactics.
 - [ ] Multi-language Support: Translate key sections into multiple languages.
