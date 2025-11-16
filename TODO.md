@@ -24,6 +24,12 @@
 - [ ] **Performance Optimization**: Optimize page load times and implement basic caching.
 - [ ] **Testing and QA**: Perform basic user testing and cross-browser checks.
 
+## 🕹️ Simulation & Gamification Features (NUEVA SECCIÓN)
+- [ ] **Tactical Tower Defense Game**: Implement a simple Tower Defense game where the "towers" are players placed in a formation (using the Tactics Creator) and "bloons/creeps" are rival attackers.
+    - **Mechanics**: Players' stats (Tackling, Interception, Strength) could determine the "damage" or defense capability of the tower.
+    - **Goal**: Defend the goalpost/scoreline against increasing waves of attackers.
+    - **Integration**: Allow users to use their saved custom teams/tactics in the game.
+
 ## Technical Tasks
 - [ ] Set up project structure and integrate with Supabase for data management.
 - [ ] Implement TypeScript types for players, clubs, tactics, and users.

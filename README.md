@@ -112,6 +112,7 @@ XScouting aims to become the ultimate football scouting platform. Here's what's 
 ### 🌟 Long-Term Vision (1-2 Years)
 - **Social Scouting Community**: Build forums, user-generated content, and collaborative tactic sharing with voting and comments.
 - **VR/AR Tactics Viewer**: Integrate virtual reality for immersive 3D tactic visualization and training simulations.
+- **Tactical Tower Defense Game**: Implement a fun, gamified simulation where user-defined tactics act as "towers" to defend against waves of opponent attacks, utilizing player stats as defensive attributes.
 - **Global Expansion**: Multi-language support, regional leagues, and partnerships with football federations.
 - **Monetization and Premium Features**: Subscription tiers for advanced tools, exclusive data, and custom branding.
 - **API Ecosystem**: Release a public API for third-party integrations, allowing developers to build custom scouting tools.
