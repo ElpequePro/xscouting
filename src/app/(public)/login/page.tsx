@@ -1,20 +1,25 @@
 "use client";
 
-import { createClient } from "@/lib/supabase/component";
+import { createClientComponent } from "@/lib/supabase/component";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FaGithub, FaGoogle } from "react-icons/fa"
+import { createClientServer } from "@/lib/supabase/server";
+import { redirect } from "next/navigation";
+import { cookies } from "next/headers";
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'edge';
 
-export default function LoginPage() {
-    const supabase = createClient();
+export default async function LoginPage() {
+    const cookieStore = await cookies();
+    const supabaseComponent = createClientComponent();
+    const supabaseClient = createClientServer();
     const router = useRouter();
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
-        supabase.auth.getUser().then(({ data }) => {
+        supabaseComponent.auth.getUser().then(({ data }) => {
             if (data.user) router.replace("/dashboard");
         });
     }, []);
@@ -22,7 +27,7 @@ export default function LoginPage() {
 
     const handleOAuthLogin = async (provider: "google" | "github") => {
         setLoading(true);
-        const { error } = await supabase.auth.signInWithOAuth({
+        const { error } = await supabaseComponent.auth.signInWithOAuth({
             provider,
             options: {
                 redirectTo:
@@ -36,6 +41,12 @@ export default function LoginPage() {
             setLoading(false);
         }
     };
+
+    const {
+        data: { user },
+    } = await(await supabaseClient).auth.getUser();
+
+    if (user) redirect("/dashboard"); // si ya está logueado, redirige
 
     return (
         <main className="min-h-screen flex flex-col items-center justify-center bg-gray-950 text-white">

@@ -1,25 +1,88 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* LIGHT MODE */
+  --bg-primary: #F9FAFB;
+  --text-primary: #111827;
+  --text-secondary: #6B7280;
+  --primary: #0284C7;
+  --secondary: #16A34A;
+  --accent: #F59E0B;
+  --error: #DC2626;
+  --border: #D1D5DB;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* DARK MODE */
+    --bg-primary: #18181B;
+    --text-primary: #E5E7EB;
+    --text-secondary: #9CA3AF;
+    --primary: #06B6D4;
+    --secondary: #22C55E;
+    --accent: #FACC15;
+    --error: #EF4444;
+    --border: #2C2C2F;
   }
 }
 
+[data-theme="dark"] {
+  /* DARK MODE */
+  --bg-primary: #18181B;
+  --text-primary: #E5E7EB;
+  --text-secondary: #9CA3AF;
+  --primary: #06B6D4;
+  --secondary: #22C55E;
+  --accent: #FACC15;
+  --error: #EF4444;
+  --border: #2C2C2F;
+}
+
+/* USO GENERAL */
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-primary);
+}
+
+p,
+span,
+label {
+  color: var(--text-secondary);
+}
+
+button.primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+button.secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+
+button.accent {
+  background-color: var(--accent);
+  color: black;
+}
+
+button.error {
+  background-color: var(--error);
+  color: white;
+}
+
+.card {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
