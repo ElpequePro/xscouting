@@ -34,6 +34,7 @@
 - [ ] Ensure accessibility (WCAG compliance) and basic responsiveness.
 
 ## Future Ideas
+- [ ] **Tower Defense Game**: Implement a tower defense game inspired by Bloons TD, with towers, enemies, waves, and upgrades.
 - [ ] AI-Powered Scouting: Use simple algorithms to suggest player potentials or tactics.
 - [ ] Social Features: Add comments or sharing buttons for tactics.
 - [ ] Multi-language Support: Translate key sections into multiple languages.
