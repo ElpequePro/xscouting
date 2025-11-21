@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Knight",
+        "elixir": 2,
+        "trait1": "Noble",
+        "trait2": "Juggernaut",
+        "priority": 8
+    },
+    {
+        "name": "Archers",
+        "elixir": 2,
+        "trait1": "Clan",
+        "trait2": "Ranger",
+        "priority": 5
+    },
+    {
+        "name": "Goblins",
+        "elixir": 2,
+        "trait1": "Goblin",
+        "trait2": "Assassin",
+        "priority": 4
+    },
+    {
+        "name": "Spear Goblins",
+        "elixir": 2,
+        "trait1": "Goblin",
+        "trait2": "Thrower",
+        "priority": 0
+    },
+    {
+        "name": "Bomber",
+        "elixir": 2,
+        "trait1": "Undead",
+        "trait2": "Thrower",
+        "priority": 1
+    },
+    {
+        "name": "Barbarians",
+        "elixir": 2,
+        "trait1": "Clan",
+        "trait2": "Brawler",
+        "priority": 2
+    },
+    {
+        "name": "Valkyrie",
+        "elixir": 3,
+        "trait1": "Clan",
+        "trait2": "Avenger",
+        "priority": 6
+    },
+    {
+        "name": "P.E.K.K.A",
+        "elixir": 3,
+        "trait1": "Ace",
+        "trait2": "Juggernaut",
+        "priority": 7
+    },
+    {
+        "name": "Prince",
+        "elixir": 3,
+        "trait1": "Noble",
+        "trait2": "Brawler",
+        "priority": 3
+    },
+    {
+        "name": "Giant Skeleton",
+        "elixir": 3,
+        "trait1": "Undead",
+        "trait2": "Brawler",
+        "priority": 3
+    },
+    {
+        "name": "Dart Goblin",
+        "elixir": 3,
+        "trait1": "Goblin",
+        "trait2": "Ranger",
+        "priority": 4
+    },
+    {
+        "name": "Executioner",
+        "elixir": 3,
+        "trait1": "Ace",
+        "trait2": "Thrower",
+        "priority": 5
+    },
+    {
+        "name": "Princess",
+        "elixir": 4,
+        "trait1": "Noble",
+        "trait2": "Ranger",
+        "priority": 7
+    },
+    {
+        "name": "Mega Knight",
+        "elixir": 4,
+        "trait1": "Ace",
+        "trait2": "Brawler",
+        "priority": 4
+    },
+    {
+        "name": "Royal Ghost",
+        "elixir": 4,
+        "trait1": "Undead",
+        "trait2": "Assassin",
+        "priority": 10
+    },
+    {
+        "name": "Bandit",
+        "elixir": 4,
+        "trait1": "Ace",
+        "trait2": "Avenger",
+        "priority": 9
+    },
+    {
+        "name": "Goblin Machine",
+        "elixir": 4,
+        "trait1": "Goblin",
+        "trait2": "Juggernaut",
+        "priority": 9
+    },
+    {
+        "name": "Skeleton King",
+        "elixir": 5,
+        "trait1": "Undead",
+        "trait2": "Juggernaut",
+        "priority": 6
+    },
+    {
+        "name": "Golden Knight",
+        "elixir": 5,
+        "trait1": "Noble",
+        "trait2": "Assassin",
+        "priority": 8
+    },
+    {
+        "name": "Archer Queen",
+        "elixir": 5,
+        "trait1": "Clan",
+        "trait2": "Avenger",
+        "priority": 10
+    }
+]

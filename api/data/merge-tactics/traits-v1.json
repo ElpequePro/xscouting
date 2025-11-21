@@ -1,0 +1,129 @@
+{
+    "Ace": {
+        "description": "Combat Start: Your highest Merge Level Troop is the Captain. When the Captain defeats enemy Troops, your team gains +20% Hit Speed (4s)",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "Captain gains 30% bonus Damage"
+            },
+            {
+                "units": 4,
+                "bonus": "Captain gains 60% bonus Damage and gains +30% HP of Damage dealt"
+            }
+        ]
+    },
+    "Clan": {
+        "description": "Once per round, Clans rapidly heal and gain bonus Hit Speed at 50% HP",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "+30% of max HP and Hit Speed"
+            },
+            {
+                "units": 4,
+                "bonus": "+60% of max HP and Hit Speed for Clans, +30% for team"
+            }
+        ]
+    },
+    "Goblin": {
+        "description": "You’ll get an extra random Goblin for free next round",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "Gain a 2-Elixir Goblin"
+            },
+            {
+                "units": 4,
+                "bonus": "+60% chance of gaining a 3 or 4-Elixir Goblin"
+            }
+        ]
+    },
+    "Noble": {
+        "description": "Frontline Troops take less Damage while backline Troops gain bonus Damage",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "20% less Damage and bonus Damage"
+            },
+            {
+                "units": 4,
+                "bonus": "40% less Damage and bonus Damage"
+            }
+        ]
+    },
+    "Undead": {
+        "description": "Combat Start: The enemy with the highest HP is cursed, and your Undead gain 20% bonus Damage when that enemy is defeated.",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "Curses 1 enemy, max HP cut by 25%"
+            },
+            {
+                "units": 4,
+                "bonus": "Curses 2 enemies, max HP cut by 50%"
+            }
+        ]
+    },
+    "Assassin": {
+        "description": "Combat Start: Assassins will leap to the enemy’s backline Troops",
+        "levels": [
+            {
+                "units": 3,
+                "bonus": "+35% Critical Chance and Critical Damage"
+            }
+        ]
+    },
+    "Avenger": {
+        "description": "Avengers gain bonus Damage, with the last woman standing gaining double Damage",
+        "levels": [
+            {
+                "units": 3,
+                "bonus": "+30% bonus Damage"
+            }
+        ]
+    },
+    "Brawler": {
+        "description": "Brawlers gain bonus max HP",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "+30% bonus HP"
+            },
+            {
+                "units": 4,
+                "bonus": "+60% for Brawlers, +30% for the team"
+            }
+        ]
+    },
+    "Juggernaut": {
+        "description": "Combat Start: Troops behind Juggernauts gain an 8s Shield",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "+15% bonus Shield, Juggernauts +30%"
+            },
+            {
+                "units": 4,
+                "bonus": "+30% bonus Shield, Juggernauts +60%"
+            }
+        ]
+    },
+    "Ranger": {
+        "description": "Rangers gain Hit Speed per attack, stacking up to 15x",
+        "levels": [
+            {
+                "units": 3,
+                "bonus": "+15% Hit Speed"
+            }
+        ]
+    },
+    "Thrower": {
+        "description": "Throwers gain +1 Attack Range and deal more Damage to distant targets",
+        "levels": [
+            {
+                "units": 3,
+                "bonus": "+10% Damage per Hex"
+            }
+        ]
+    }
+}

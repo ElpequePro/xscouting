@@ -86,3 +86,8 @@ button.error {
   padding: 1rem;
   border-radius: 0.5rem;
 }
+
+/* MERGE TACTICS */
+.grid-cols-auto-fill-minmax-100 {
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+}

@@ -1,0 +1,171 @@
+{
+    "Ace": {
+        "description": "All Aces gain +20% Hit Speed at combat start. Your strongest Ace becomes the Captain instead of the strongest Troops with the highest Merge Level",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "Captain gains +40% bonus damage and +40% HP of damage dealt"
+            },
+            {
+                "units": 4,
+                "bonus": "Captain gains +70% bonus damage and +70% HP of damage dealt"
+            }
+        ]
+    },
+    "Clan": {
+        "description": "Once per round, Clans heal quickly and gain bonus hit speed when at 50% HP. Clans no longer heal their teammates with 4 active troops",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "+35% max HP and hit speed"
+            },
+            {
+                "units": 4,
+                "bonus": "+70% max HP and hit speed for Clans"
+            }
+        ]
+    },
+    "Goblin": {
+        "description": "You'll get an extra random Goblin for free next round",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "Gain a 2 or 3-Elixir Goblin"
+            },
+            {
+                "units": 4,
+                "bonus": "+100% chance of gaining a 3 or 4-Elixir Goblin"
+            }
+        ]
+    },
+    "Noble": {
+        "description": "Frontline Nobles take less damege, while backline Nobles gain bonus damage",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "-25%, +25%"
+            },
+            {
+                "units": 4,
+                "bonus": "-40%, +40%"
+            },
+            {
+                "units": 6,
+                "bonus": "-60%, +60%"
+            }
+        ]
+    },
+    "Undead": {
+        "description": "Combat Start: The enemies with the highest HP are cursed, and your Undead gain 30% bonus Damage when cursed enemies are defeated",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "Curses 2 enemies, max HP cut by 25%"
+            },
+            {
+                "units": 4,
+                "bonus": "Curses 3 enemies, max HP cut by 50%"
+            },
+            {
+                "units": 6,
+                "bonus": "Curses 4 enemies, max HP cut by 75%"
+            }
+        ]
+    },
+    "Assassin": {
+        "description": "Combat Start: Assassins will leap to the enemy's backline Troops",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "+25% Critical Chance and Critical Damage"
+            },
+            {
+                "units": 4,
+                "bonus": "+45% Critical Chance and Critical Damage"
+            }
+        ]
+    },
+    "Brawler": {
+        "description": "Brawlers gain bonus max HP",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "+50% bonus HP"
+            },
+            {
+                "units": 4,
+                "bonus": "+100% bonus HP"
+            }
+        ]
+    },
+    "Ranger": {
+        "description": "Rangers gain Hit Speed per attack, stacking up to 25x",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "+10% Hit Speed"
+            },
+            {
+                "units": 4,
+                "bonus": "+15% Hit Speed"
+            }
+        ]
+    },
+    "Blaster": {
+        "description": "Blasters gain +1 Range and extra damage based on distance",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "10% damage per hex"
+            },
+            {
+                "units": 4,
+                "bonus": "15% damage per hex"
+            }
+        ]
+    },
+    "Brutalist": {
+        "description": "Brutalists gain bonus Hit Speed, marking enemies with each hit. Enemy target loses HP after 4 marks",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "+30%, -20% of max HP"
+            },
+            {
+                "units": 4,
+                "bonus": "+60%, -40% of max HP"
+            }
+        ]
+    },
+    "Giant": {
+        "description": "Giants take less damage.",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "-40%"
+            }
+        ]
+    },
+    "P.E.K.K.A": {
+        "description": "P.E.K.K.As gain bonus damage. They also heal after defeating a troop.",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "+30% damage, heals 30% of max HP"
+            }
+        ]
+    },
+    "Superstar": {
+        "description": "Combat Start: Superstars’ ability bar is partially filled. 50% chance to recast after casting their ability",
+        "levels": [
+            {
+                "units": 2,
+                "bonus": "1/3"
+            },
+            {
+                "units": 4,
+                "bonus": "2/3"
+            }
+        ]
+    }
+}
