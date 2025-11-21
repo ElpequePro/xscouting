@@ -5,7 +5,7 @@ export default function GamesPage() {
     <div>
       <h1>Games</h1>
       <Link href={'/game/tower-defense'}>Tower Defense</Link>
-      <Link href={'/game/tower-defense-phaser'}>Tower Defense Phaser</Link>
+      <Link href={'/game/merge-tactics'}>Merge Tactics</Link>
     </div>
   );
 }

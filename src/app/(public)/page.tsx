@@ -25,6 +25,10 @@ export default async function HomePage() {
         </Link>
       </div>
 
+      <section>
+        <Link href={'/games'}>Games</Link>
+      </section>
+
       {/* CARDS */}
       <section>
         <div>
